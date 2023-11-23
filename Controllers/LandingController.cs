@@ -28,5 +28,9 @@ namespace MediSynthFinals.Controllers
         {
             return View();
         }
+        public IActionResult PatientOptions()
+        {
+            return View();
+        }
     }
 }
